@@ -1,0 +1,19 @@
+a = int(input("Enter the amount: "))
+
+if a >= 5000:
+    td = ((a*20) / 100)
+    finish = a - td
+    print(finish)
+
+elif a >= 3000:
+    td = ((a*15) / 100)
+    finish = a - td
+    print(finish)
+
+elif a >= 1000:
+    td = ((a*10) / 100)
+    finish = a - td
+    print(finish)
+
+else:
+    print( "You have to pay: ", a)
